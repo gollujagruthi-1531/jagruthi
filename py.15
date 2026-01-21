@@ -1,0 +1,14 @@
+numbers = [12, 45, 3, 98, 7, 34, 21]
+
+count = 0
+
+for n in numbers:
+    print(n)
+
+print("Greater than 30:")
+for n in numbers:
+    if n > 30:
+        print(n)
+        count = count + 1
+
+print("Count is:", count)
